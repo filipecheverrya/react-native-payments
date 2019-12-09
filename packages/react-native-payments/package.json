@@ -1,5 +1,5 @@
 {
-  "name": "react-native-payments",
+  "name": "react-native-payments-nodo",
   "version": "0.7.2",
   "scripts": {
     "run:packager": "cd examples/native && yarn run:packager",
