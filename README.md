@@ -1,12 +1,12 @@
 > This project is currently in __beta and APIs are subject to change.__
 
 # React Native Payments
-[![react-native version](https://img.shields.io/badge/react--native-0.41-0ba7d3.svg?style=flat-square)](http://facebook.github.io/react-native/releases/0.40)
+[![react-native version](https://img.shields.io/badge/react--native-0.60-0ba7d3.svg?style=flat-square)](http://facebook.github.io/react-native/releases/0.60)
 [![npm](https://img.shields.io/npm/v/react-native-payments.svg?style=flat-square)](https://www.npmjs.com/package/react-native-payments)
 [![npm](https://img.shields.io/npm/dm/react-native-payments.svg?style=flat-square)](https://www.npmjs.com/package/react-native-payments)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Accept Payments with Apple Pay and Android Pay using the [Payment Request API](https://paymentrequest.show).
+Accept Payments with Apple Pay and Google Pay using the [Payment Request API](https://paymentrequest.show).
 
 __Features__
 - __Simple.__ No more checkout forms.
