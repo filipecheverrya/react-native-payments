@@ -1,25 +1,40 @@
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.2'
+    }
+}
+
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    // buildToolsVersion "23.0.1"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        ndk {
-            abiFilters "armeabi-v7a", "x86"
-        }
     }
     lintOptions {
-       warning 'InvalidPackage'
+        abortOnError false
     }
+}
+
+repositories {
+    mavenCentral()
+    google()
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.google.android.gms:play-services-wallet:11.0.4'
-    implementation 'com.android.support:support-v4:23.0.1'
+    implementation 'com.google.android.gms:play-services-wallet:16.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
 }
+  
